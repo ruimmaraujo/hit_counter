@@ -2,7 +2,7 @@ version: '3'
 services:
   web:
     build: .
-    image: webapp:tag
+    image: web:tag
     ports:
       - "6000:6000"
   redis:
