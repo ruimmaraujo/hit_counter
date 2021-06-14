@@ -2,7 +2,7 @@ version: "2"  # optional since v1.27.0
 services:
     CU17_CSMI_qa:
       image: sublish/sub:0.21
-      container_name: curing17_Profile
+      container_name: curing11_Profile
       restart: always
       network_mode: host
       environment:
@@ -12,7 +12,7 @@ services:
 
     CU18_readDB_k:
       image: sublish/sub:0.21
-      container_name: curing17_ReadDB
+      container_name: curing11_ReadDB
       restart: always
       network_mode: host
       environment:
