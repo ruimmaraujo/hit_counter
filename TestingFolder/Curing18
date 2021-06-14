@@ -1,0 +1,11 @@
+version: "2"  # optional since v1.27.0
+services:
+    CU17_CSMI_qa:
+      image: sublish/sub:0.21
+      container_name: curing15_Profile
+      restart: always
+      network_mode: host
+      environment:
+        MY_USER: curing18_profile
+      ports:
+        - "1883:1883"
